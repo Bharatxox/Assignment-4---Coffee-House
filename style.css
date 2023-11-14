@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(165, 42, 42, 0.3);
+}
+nav{
+    height: 300px;
+    width: 100%;
+    background: url(https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 8px black;
+}
+nav input{
+    position: sticky;
+    top: 60px;
+    left: 15%;
+    width: 70%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(99, 18, 18, 1);
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.coffee{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 8px 8px black;
+}
+img:hover {
+    box-shadow: 0px 18px 18px black;
+    height: 152px;
+    width: 152px;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    margin: 15px;
+}
+.coffee-house,.coffee-list{
+    width: 90%;
+    color: brown;
+    background-color: rgb(165, 42, 42, 0.3);
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px brown;
+    margin: auto;
+    padding: 30px;
+    margin-block: 50px;
+}
+p{
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.last{
+    margin: 0;
+}
+li{
+    margin: 10px 0px;
+}
